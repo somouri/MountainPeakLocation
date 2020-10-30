@@ -20,7 +20,7 @@ docker-compose up
     - [x] [PUT] : `/peak/{id}`
     - [x] [DELETE] : `/peak/{id}`
     - [x] [GET] : `/peaks`
-    - [x] [POST] Get peaks within Bounding box) : `/peaks/bbox`
+    - [x] [POST] Get peaks within Bounding box) : `/peaks/within`
 
 ### Sample Data for POST (`/peak`)
 ```
@@ -32,7 +32,7 @@ docker-compose up
   "name": "mountain Name"
 }
 ```
-### Data Format for getting peaks in Bounding box (`/peak`)
+### Data Format for getting peaks in Bounding box (`/peaks/within`)
 ```
 Xmin,Ymin,Xmax,Ymax
 ```
